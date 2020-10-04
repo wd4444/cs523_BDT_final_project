@@ -1,0 +1,76 @@
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.streaming.{Seconds, StreamingContext}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.streaming.kafka010.KafkaUtils[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.streaming.kafka010.LocationStrategies.PreferConsistent[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:7:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.streaming.kafka010.ConsumerStrategies.Subscribe[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:8:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.common.serialization.StringDeserializer[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:9:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.hadoop.hbase.{ HBaseConfiguration, HTableDescriptor}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:10:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.hadoop.hbase.util.Bytes[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:11:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.hadoop.hbase.client.{ Put, HTable}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:12:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.producer._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:13:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.common.serialization.StringDeserializer[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:14:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.streaming.dstream.DStream.toPairDStreamFunctions[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:18:20: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m    val conf = new SparkConf().setMaster("local[*]").setAppName("TwitterSpark")[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:19:19: not found: type StreamingContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val ssc = new StreamingContext(conf, Seconds(5))[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:19:42: not found: value Seconds[0m
+[0m[[0m[31merror[0m] [0m[0m    val ssc = new StreamingContext(conf, Seconds(5))[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:23:39: not found: type StringDeserializer[0m
+[0m[[0m[31merror[0m] [0m[0m        "key.deserializer" -> classOf[StringDeserializer],[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:24:41: not found: type StringDeserializer[0m
+[0m[[0m[31merror[0m] [0m[0m        "value.deserializer" -> classOf[StringDeserializer],[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:29:23: not found: value KafkaUtils[0m
+[0m[[0m[31merror[0m] [0m[0m    val kafkaStream = KafkaUtils.createDirectStream[String, String]([0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:31:9: not found: value PreferConsistent[0m
+[0m[[0m[31merror[0m] [0m[0m        PreferConsistent,[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:32:9: not found: value Subscribe[0m
+[0m[[0m[31merror[0m] [0m[0m        Subscribe[String, String](topics, kafkaParams))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:48:23: not found: type HBaseConfiguration[0m
+[0m[[0m[31merror[0m] [0m[0m      val hConf = new HBaseConfiguration()[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:51:24: not found: type HTable[0m
+[0m[[0m[31merror[0m] [0m[0m      val hTable = new HTable(hConf, tableName)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:52:33: not found: type HTableDescriptor[0m
+[0m[[0m[31merror[0m] [0m[0m      val tableDescriptor = new HTableDescriptor(tableName)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:53:24: not found: type Put[0m
+[0m[[0m[31merror[0m] [0m[0m      val thePut = new Put(Bytes.toBytes(row._1.toString()))[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/cloudera/workspace_scala/SparkStreamingProject/src/main/scala/cs523/SparkStreamingProject/TwitterSpark.scala:53:28: not found: value Bytes[0m
+[0m[[0m[31merror[0m] [0m[0m      val thePut = new Put(Bytes.toBytes(row._1.toString()))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m25 errors found[0m
